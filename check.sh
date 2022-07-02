@@ -13,7 +13,8 @@ do
     i=$((i+1))
 done
 
-if [ $[ ${nums[1]} * ${nums[2]} ] != ${nums[3]} ]
+ans=$((nums[1] * nums[2]))
+if [ $ans != ${nums[3]} ]
 then
     exit 1
 else
