@@ -8,7 +8,7 @@ for line in $content
 do
     if [ $i != 0 ]
     then
-        nums[$i]=${line: -2}
+        nums[$i]=${line: -1}
     fi
     i=$((i+1))
 done
